@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="flex items-center justify-between py-6 mx-2 md:mx-12 lg:mx-32 xl:mx-64 ">
+      <!-- title -->
+      <div class="">
+        <img src="./images/logo-dark.svg" alt="" class="h-5" />
+      </div>
+      <!-- button -->
+      <div class="z-20">
+        <a
+          href="#"
+          class="py-3 px-6 text-md font-bold text-white rounded-full lg:py-5 bg-darkBlue hover:bg-lightBlue"
+          >Get Started</a
+        >
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" ">
+      <!-- hero container -->
+      <div
+        class="flex flex-col  container relative  mx-auto mb:44 p-6 md:flex-row md:mb-32 "
+      >
+        <!-- Content -->
+        <div class="flex flex-col space-y-10 mb-12 md:mt-32 md:w-1/2  lg:mt-32 xl:mx-32 xl:space-y-16">
+          <h1
+            class="text-4xl font-bold text-darkBlue text-left xl:text-6xl xl:max-w-lg"
+          >
+            Maximize skill, minimize budget
+          </h1>
+          <p class="text-md text-left text-gray lg:max-w-md xl:text-xl ">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <div class="pl-auto">
+            <a
+              href="#"
+              class="py-3 px-6 text-md font-bold text-white rounded-full lg:py-5 bg-btGradient hover:opacity-70"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <!-- Mobile Hero Image -->
+        <!-- mobile -->
+        <div class="mx-auto md:hidden">
+          <img src="./images/image-hero-mobile@2x.webp" alt="">
+        </div>
+        <!-- tablet -->
+        <div class="mx-auto hidden relative md:block md:w-1/2 ">
+          <img src="./images/image-hero-tablet@2x.webp" alt="" class="absolute left-40 scale-[200%] lg:scale-[160%] xl:scale-[150%] xl:-top-[20%]">
+        </div>
+        
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <!-- Global container -->
+      <div class="container mx-auto max-w-6xl p-2 mb-44 md:p-10">
+
+        <!-- Grid Container -->
+        <div class="grid gap-8 grid-cols-1 p-4 md:grid-cols-2 lg:grid-cols-3 overflow-hidden">
+          <!-- Tile Box -->
+          <div class="p-6 rounded-xl bg-btGradient">
+            <div class="text-xl tracking-wider text-white font-bold md:pt-8">Check out our most popular courses!</div>
+          </div>
+          
+          <!-- box 1 -->
+          <div class="flex flex-col items-start justify-center px-6 text-start  space-y-4 hover:scale-105 duration-200">
+            <img src="./images/icon-animation.svg" alt="">
+            <h1 class="text-xl font-bold text-darkBlue">Animation</h1>
+            <p class="opacity-50">Learn the latest animation techniques to create stunning motion design and captivate your audience</p>
+            <h1 class="text-lg font-bold text-pink hover:opacity-50">Get Started</h1>
+          </div>
+
+          <!-- box 2 -->
+          <div class="flex flex-col items-start justify-center px-6 text-start space-y-4 hover:scale-105 duration-200">
+            <img src="./images/icon-design.svg" alt="">
+            <h1 class="text-xl font-bold text-darkBlue">Design</h1>
+            <p class="opacity-50">Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+            <h1 class="text-lg font-bold text-pink hover:opacity-50">Get Started</h1>
+          </div>
+
+          <!-- box 3 -->
+          <div class="flex flex-col items-start justify-center px-6 text-start space-y-4 hover:scale-105 duration-200">
+            <img src="./images/icon-photography.svg" alt="">
+            <h1 class="text-xl font-bold text-darkBlue">Photography</h1>
+            <p class="opacity-50">Explore critical fundamentals like lighting, compositions, and focus to capture exceptional photos.</p>
+            <h1 class="text-lg font-bold text-pink hover:opacity-50">Get Started</h1>
+          </div>
+
+          <!-- box 4 -->
+          <div class="flex flex-col items-start justify-center px-6 text-start space-y-4 hover:scale-105 duration-200">
+            <img src="./images/icon-crypto.svg" alt="">
+            <h1 class="text-xl font-bold text-darkBlue">Crypto</h1>
+            <p class="opacity-50">All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+            <h1 class="text-lg font-bold text-pink hover:opacity-50">Get Started</h1>
+          </div>
+
+          <!-- box 5 -->
+          <div class="flex flex-col items-start justify-center px-6 text-start space-y-4 hover:scale-105 duration-200">
+            <img src="./images/icon-business.svg" alt="">
+            <h1 class="text-xl font-bold text-darkBlue">Photography</h1>
+            <p class="opacity-50">A step-by-step playbook to help you start, scale, and sustain your business without outside investment</p>
+            <h1 class="text-lg font-bold text-pink hover:opacity-50">Get Started</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!-- Navbar -->
+    <section class="flex items-center justify-between py-12 px-2 bg-darkBlue md:px-12 lg:px-32 xl:px-64 ">
+      <!-- title -->
+      <div class="">
+        <img src="./images/logo-light.svg" alt="" class="h-5" />
+      </div>
+      <!-- button -->
+      <div class="pl-auto">
+        <a
+          href="#"
+          class="py-3 px-6 text-md font-bold text-white rounded-full lg:py-5 bg-btGradientBottom hover:opacity-70"
+          >Get Started</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
